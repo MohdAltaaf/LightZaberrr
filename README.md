@@ -6,6 +6,7 @@ it was almost complete. Just Missing 1 thing
 
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/cb387c36-3a8b-455d-bc6c-716d33aecc22" />
 - So yeah that is the motivation for it, coz buying a lightSaber is EXPENSIVE and imo making it is very much more cooler!
+
 ## How?: 
 - So what I'm thinking of rn is to first off have the most prominent feature i.e. *The Blade Emerging*, would be a light fill up
 Coz having a mechanically telescoping glade 😭 just STOP thats gonna be brutal.
