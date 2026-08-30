@@ -1,12 +1,14 @@
-| # | Component | Part | Qty | Price (₹) | Link | Notes |
-|---|---|---|---|---|---|---|
-| 1 | Microcontroller | SmartElex ESP32-WROOM-32D-N8 DevKit | 1 | 819 | https://robu.in/product/smartelex-esp-wroom-32-wifi-bluetooth-networking-development-board-1-pcs/ | Verified in stock |
-| 2 | IMU | SparkFun Micro BMI270 (Qwiic) | 1 | ~1,200–1,600 (import) | https://www.sparkfun.com/sparkfun-micro-6dof-imu-breakout-bmi270-qwiic.html | Ships from US, 2-3 wk lead time |
-| 3 | LED strip | WS2812B RGBIC 144 LED/m, 1m | 1 | ~900–1,300 (est.) | https://www.amazon.in/dp/B0H6868B3K | Confirm "individually addressable" in reviews |
-| 4 | Battery | Samsung INR18650-30Q (2pc pack) | 1 pack | 549 | https://robobazar.in/product/samsung-inr18650-30q-3000mah-5c-li-ion-battery/ | 15A continuous confirmed; keep 2nd cell as spare |
-| 5 | Discharge BMS | 1S 20A 18650 Protection Board | 1 | 29 | https://www.indianhobbycenter.com/products/bms-1s-20a-18650-lithium-battery-protection-board | Bench-test under peak load before final assembly |
-| 6 | Boost converter | TPS61088-based 3.7V→5V module | 2 | ~300–500 each (est.) | Search "TPS61088 module" on Robu.in / Robocraze / IndiaMART | One per LED strip segment — see segmented-power note |
-| 7 | Level shifter | 74HCT125 / 74AHCT125 (bare IC) | 1 (+spares) | 30–80 (est.) | Lajpat Rai Market, Delhi / element14.in | Do NOT substitute Robu's generic bidirectional "logic level converter" board |
-| 8 | Power switch | KWONONG 16mm Latching Pushbutton, 20A DC | 1 | ~400–600 (est.) | https://www.amazon.in/dp/B0CQ42Q2KG | Verified 5-24V DC 20A rating |
-| 9 | Charging | TP4056 USB-C Charging Module | 1 | 49–99 | https://robu.in/product/tp4056-3-7v-lithium-battery-charging-module-1a-usb-type-c-port-ph2-0-terminal/ | 1A charge rate — ~3-4 hr full charge |
-| 10 | Misc | Wiring, JST connectors, heat-shrink | — | ~500–800 (est.) | Local electronics market | — |
+#,Component,Part,Qty,Price (INR),Link,Notes
+1,Microcontroller,SmartElex ESP32-WROOM-32D-N8 DevKit,1,819,https://robu.in/product/smartelex-esp-wroom-32-wifi-bluetooth-networking-development-board-1-pcs/,Verified in stock
+2,IMU,SparkFun Micro BMI270 (Qwiic),1,"1200-1600 (import)",https://www.sparkfun.com/sparkfun-micro-6dof-imu-breakout-bmi270-qwiic.html,"Ships from US, 2-3 wk lead time"
+3,LED strip,WS2812B 60 LED/m 1m,2,"500-700 each (est.)",https://www.amazon.in/dp/B0H67ZSGHY,One per boost converter segment
+4,Battery,Samsung INR18650-30Q (2pc pack),1,549,https://robobazar.in/product/samsung-inr18650-30q-3000mah-5c-li-ion-battery/,"15A continuous confirmed, spare cell included"
+5,Discharge BMS,1S 20A 18650 Protection Board,1,29,https://www.indianhobbycenter.com/products/bms-1s-20a-18650-lithium-battery-protection-board,Bench-test under peak load before final assembly
+6,Boost converter,TPS61088-based module (4A+ output),2,"250-450 each (est.)",https://www.indianhobbycenter.com/products/tps61088-step-up-boost-power-modules-for-mobile-battery-fast-charging-boards-3-2-4-2v-to-5-12v,One per LED strip segment
+7,Level shifter,Nexperia 74AHCT125PW,1,"50-100 (est.)",https://in.element14.com/nexperia/74ahct125pw-118/buffer-driver-non-inv-3-state/dp/2438561,Only 1 of 4 buffer channels used
+8,Power switch,KWONONG 16mm Latching Pushbutton 20A DC,1,"400-600 (est.)",https://www.amazon.in/dp/B0CQ42Q2KG,Verified 5-24V DC 20A rating
+9,Charging module,TP4056 USB-C Charging Module,1,49-99,https://robu.in/product/tp4056-3-7v-lithium-battery-charging-module-1a-usb-type-c-port-ph2-0-terminal/,1A charge rate; ~3-4 hr full charge
+10,Audio amp,Adafruit MAX98357A I2S Amplifier,1,"350-500 (est.)",https://aws.robu.in/product/adafruit-max98357a-i2s-3w-class-d-amplifier-breakout-board/,I2S digital input; no separate DAC needed
+11,Speaker,4-ohm 3W 40mm speaker,1,"100-200 (est.)",https://robocomp.in/product/4-ohm-3w-stereo-woofer-speaker-40mm-diameter/,Impedance-matched to the amp
+12,Diffuser tube,Opal Acrylic Tube 40mm OD x 3mm wall x 1000mm,1,"~2150 + intl shipping/duty",https://www.clearplastictube.co.uk/opal-acrylic-tube/opal-acrylic-tube-extruded-40mm-3mm-1000mm,"Imported from UK (GBP 19.96 base); verify shipping cost and customs duty at checkout; acrylic not polycarbonate"
+13,Misc,"Wiring, JST connectors, heat-shrink",-,"500-800 (est.)",-,Local electronics market
