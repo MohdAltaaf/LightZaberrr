@@ -15,3 +15,6 @@ the sound system and the LED strip animations.
 # August 30:
 - The power supply was being a real constraint, as the battery needed to be small enough to fit in the handle but should be able to pump out 10A of current at max.
 - A good quality Samsung 18650 li-ion battery would suffice, found one online.
+# September 2: 
+- Schemed out the wiring schematics.
+- going to ship noww
